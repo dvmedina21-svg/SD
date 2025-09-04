@@ -8,7 +8,7 @@ def rot_x(x, y, z, theta):
         [0, np.sin(theta), np.cos(theta)]
     ])
     return R @ p
-
+ 
 def rot_y(x, y, z, theta):
     p = np.array([x, y, z])
     R = np.array([
